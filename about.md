@@ -3,7 +3,10 @@ layout: page
 title: About
 ---
 
-Hello,
+### Dongsu Zhang
 
-My name is Dongsu Zhang. I'm an undergraduate student at Seoul National University, majoring in Computer Science and Engineering. I'm highly interested in computer vision, specifically in spatial perception. My goal is to create algorithms in field of computer vision, that can be proven rigorously, while admiting the ambiguity that lies in visual data.
+Email: 96lives@gmail.com  
+Social: [Blog](dszhang.me) | [Github](github.com/96lives)
+
+I'm an undergraduate student at [SNU](http://www.useoul.edu/), majoring in [Computer Science](https:cse.snu.ac.kr). I'm highly interested in computer vision, specifically in spatial perception. My goal is to create practical algorithms in computer vision, that can be proven rigorously, while admiting the ambiguity that lies in visual data.
 

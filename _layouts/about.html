@@ -40,6 +40,26 @@ layout: default
     </div>
   {% endfor %}
 
+  <h3> Awards & Honors </h3>
+  {% for x in page.awards %}
+    <div class=awards>
+      {% if x.link %}
+        - <a href={{x.link}}>{{x.title}}</a> {{x.details}}
+      {% else %}
+        - {{x.title}}, {{x.details}}
+      {% endif %}
+    </div>
+  {% endfor %}
+  &nbsp;
+
+  <h3> Professional Activities </h3>
+      <div class=reviewer>
+      {% if page.reviewer%}
+        Conference Reviewer: {{page.reviewer}}
+      {% endif %}
+      </div>
+  &nbsp;
+
 </article>
 
 <div class="page-navigation code">

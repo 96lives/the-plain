@@ -6,7 +6,7 @@ publications:
 - title: Probabilistic Implicit Scene Completion
   authors: Dongsu Zhang, Changwoon Choi, Inbum Park, Young Min Kim
   conference: ICLR
-  year: 2022 (Spotlight)
+  year: 2022 (spotlight)
   paper_link: https://openreview.net/forum?id=BnQhMqDfcKG
   code_link: https://github.com/iclr2022submission4/cgca
 
@@ -47,7 +47,7 @@ awards:
   link: https://www.qualcomm.com/research/research/university-relations/innovation-fellowship/2021-south-korea
 
 - title: Samsung Humantech Paper Award
-  details: 2021, Honorable Mention
+  details: Honorable Mention, 2021
   link: https://humantech.samsung.com
 
 reviewer: ICML (2022), CVPR (2022), ICLR (2022), NeurIPS (2021), ICCV (2021)
@@ -56,8 +56,8 @@ reviewer: ICML (2022), CVPR (2022), ICLR (2022), NeurIPS (2021), ICCV (2021)
 
 ### Dongsu Zhang
 
-Email: 96lives@{snu.ac.kr, gmail.com}
-Social: [Blog](/) | [Github](https://github.com/96lives) | [Google Scholar](https://scholar.google.com/citations?user=ydEYx7QAAAAJ&hl=ko)
+Email: 96lives@{snu.ac.kr, gmail.com},
+Social: [Github](https://github.com/96lives) \| [Google Scholar](https://scholar.google.com/citations?user=ydEYx7QAAAAJ&hl=ko)
 
 
 I'm a master's student at [Seoul National University](http://www.useoul.edu/), majoring in electrical and computer engineering, advised by professor [Young Min Kim](http://3d.snu.ac.kr/members).

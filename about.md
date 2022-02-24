@@ -11,6 +11,7 @@ publications:
   img_link: /media/cgca.png
   paper_link: https://openreview.net/forum?id=BnQhMqDfcKG
   code_link: https://github.com/96lives/gca
+  tldr: We tackle the problem of probabilistic scene completion for the first time by extending the Generative Cellular Automata to produce continuous 3D surface.
 
 - title: Learning to Generate 3D Shapes with <br/> Generative Cellular Automata
   authors: Dongsu Zhang, Changwoon Choi, Jeonghwan Kim, Young Min Kim
@@ -19,6 +20,7 @@ publications:
   img_link: /media/gca.gif
   paper_link: https://openreview.net/forum?id=rABUmU3ulQh&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2021%2FConference%2FAuthors%23your-submissions)
   code_link: https://github.com/96lives/gca
+  tldr: We present a Markov chain based 3D generative model, which is scalable for producing high-resolution voxels.
   
 awards:
 - title: Distinguished Master's Thesis, SNU ECE

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Dongsu Zhang
+title: Dongsu Zhang (장동수)
 google_scholar: https://scholar.google.com/citations?user=ydEYx7QAAAAJ&hl=ko
 publications:
 

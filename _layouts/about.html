@@ -10,36 +10,35 @@ layout: default
 
 	{{ content }}
 
+    <br/>
   <h3> Selected Publications </h3>
-    For full publication list, check out my <a href={{page.google_scholar}}>google scholar</a>.
+    For full publications list, visit my <a href={{page.google_scholar}}>Google Scholar</a> profile.
+    <br/>
+    <br/>
 
   {% for x in page.publications %}
-    <div class=publication>
-      {% if x.title%}
-        <h5>
+    <img class="publication__image" src={{x.img_link}}>
+    <div class=publication__text>
+        <h6>
         {{x.title}}
-        </h5>
-      {% endif %}
-      {% if x.authors%}
+        </h6>
         {{x.authors}}
-      {% endif %}
-
-      <br/>
-      {% if x.conference%}
+        <br/>
         <i> {{x.conference}}, </i> {{x.year}}
-      {% endif %}
-
-      <br/>
       {% if x.paper_link%}
+        <br/>
         <a href={{x.paper_link}}>pdf</a>
       {% endif %}
-        |
       {% if x.code_link%}
+        |
          <a href={{x.code_link}}>code</a> &nbsp;
       {% endif %}
     </div>
+    <br/>
+    <br/>
   {% endfor %}
 
+    <br/>
   <h3> Awards & Honors </h3>
   {% for x in page.awards %}
     <div class=awards>
@@ -50,8 +49,8 @@ layout: default
       {% endif %}
     </div>
   {% endfor %}
-  &nbsp;
 
+    <br/>
   <h3> Professional Activities </h3>
       <div class=reviewer>
       {% if page.reviewer%}

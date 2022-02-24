@@ -10,7 +10,8 @@ layout: default
 
 	{{ content }}
 
-  <h3> Publications </h3>
+  <h3> Selected Publications </h3>
+    For full publication list, check out my <a href={{page.google_scholar}}>google scholar</a>.
 
   {% for x in page.publications %}
     <div class=publication>
@@ -36,8 +37,6 @@ layout: default
       {% if x.code_link%}
          <a href={{x.code_link}}>code</a> &nbsp;
       {% endif %}
-      <br/>
-      &nbsp;
     </div>
   {% endfor %}
 

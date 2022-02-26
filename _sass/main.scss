@@ -54,6 +54,9 @@ h6 {
   font-size: 1.1rem;
 }
 
+$web-width: 700px;
+$pub-img-width: 200px;
+
 img {
   max-width: 100%;
 }
@@ -89,19 +92,19 @@ h6 {
 }
 
 .publication {
-
   &__image {
     display: inline-block;
     vertical-align: middle;
-    width: 200px;
+    width: $pub-img-width;
   }
   &__text{
     display: inline-block;
     // background: #990073;
     vertical-align: middle;
     padding: 0 0 0 15px;
-    width: 495px;
+    width: $web-width - $pub-img-width - 5;
   }
+
     // background-image: url("/media/gca.gif");
     // background-repeat : no-repeat;
     // background-size : cover;
@@ -264,7 +267,7 @@ iframe {
 }
 
 article {
-  max-width: 700px;
+  max-width: $web-width;
   margin: 0 auto;
   h1.title {
     line-height: 1.4em;

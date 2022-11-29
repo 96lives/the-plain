@@ -62,9 +62,11 @@ img {
 }
 
 a {
-  color: inherit;
+  // color: inherit;
+  // color: #FF669B; // pink
+  color: #64A4F6;
   text-decoration: none;
-  border-bottom: 1px solid #555;
+  // border-bottom: 1px solid #555;
   &.image {
     display: block;
     text-align: center;
